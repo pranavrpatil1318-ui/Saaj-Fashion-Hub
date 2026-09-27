@@ -155,168 +155,113 @@
 
     <section class="designs" id="designs">
 
-        <h2>Our Designs</h2>
+    <h2>Our Designs</h2>
 
-        <p>
-            Explore some of our latest creations from Saaj Fashion Hub.
-        </p>
+    <p>
+        Explore some of our latest creations from Saaj Fashion Hub.
+    </p>
 
-        <div class="filter-buttons">
+    <div class="work-categories">
 
-            <button onclick="filterDesigns('all')">All</button>
-            <button onclick="filterDesigns('dress')">Dresses</button>
-            <button onclick="filterDesigns('blouse')">Blouses</button>
-            <button onclick="filterDesigns('gown')">Gowns</button>
-            <button onclick="filterDesigns('kids')">Kids Wear</button>
-
+        <div class="work-category" onclick="showCategory('ladies-dress')">
+            <div class="category-icon">👗</div>
+            <h3>Ladies Dress</h3>
+            <p>View our ladies dress designs</p>
         </div>
 
-
-        <div class="design-container">
-
-            <div class="design-card dress">
-
-                <img src="images/ladies-dress-1.jpg"
-                    alt="Ladies dress stitching design in Gadhinglaj"
-                    loading="lazy"
-                    onclick="openImage(this.src)">
-
-                <h3>Ladies Dress</h3>
-
-                <p>
-                    Custom stitched ladies dress.
-                </p>
-
-                <a href="https://wa.me/9764512501?text=Hello%20Saaj%20Fashion%20Hub%2C%20I%20am%20interested%20in%20the%20Ladies%20Dress.%20I%20would%20like%20to%20know%20more%20about%20the%20price%20and%20stitching%20options."
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="whatsapp-button">
-                    💬 Enquire on WhatsApp
-                </a>
-
-            </div>
-
-
-            <div class="design-card dress">
-
-                <img src="images/ladies-dress-2.jpg"
-                    alt="Ladies dress custom stitching design"
-                    loading="lazy"
-                    onclick="openImage(this.src)">
-
-                <h3>Ladies Dress</h3>
-
-                <p>
-                    Beautiful custom dress design.
-                </p>
-
-                <a href="https://wa.me/9764512501?text=Hello%20Saaj%20Fashion%20Hub%2C%20I%20am%20interested%20in%20the%20Ladies%20Dress.%20I%20would%20like%20to%20know%20more%20about%20the%20price%20and%20stitching%20options."
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="whatsapp-button">
-                    💬 Enquire on WhatsApp
-                </a>
-
-            </div>
-
-
-            <div class="design-card blouse">
-
-                <img src="images/blouse-1.jpg"
-                    alt="Designer blouse stitching design in Gadhinglaj"
-                    loading="lazy"
-                    onclick="openImage(this.src)">
-
-                <h3>Designer Blouse</h3>
-
-                <p>
-                    Custom blouse stitching.
-                </p>
-
-                <a href="https://wa.me/9764512501?text=Hello%20Saaj%20Fashion%20Hub%2C%20I%20am%20interested%20in%20the%20Designer%20Blouse.%20I%20would%20like%20to%20know%20more%20about%20the%20price%20and%20stitching%20options."
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="whatsapp-button">
-                    💬 Enquire on WhatsApp
-                </a>
-
-            </div>
-
-
-            <div class="design-card blouse">
-
-                <img src="images/blouse-2.jpg"
-                    alt="Stylish custom blouse stitching design"
-                    loading="lazy"
-                    onclick="openImage(this.src)">
-
-                <h3>Designer Blouse</h3>
-
-                <p>
-                    Stylish blouse with custom detailing.
-                </p>
-
-                <a href="https://wa.me/9764512501?text=Hello%20Saaj%20Fashion%20Hub%2C%20I%20am%20interested%20in%20the%20Designer%20Blouse.%20I%20would%20like%20to%20know%20more%20about%20the%20price%20and%20stitching%20options."
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="whatsapp-button">
-                    💬 Enquire on WhatsApp
-                </a>
-
-            </div>
-
-
-            <div class="design-card gown">
-
-                <img src="images/gown-1.jpg"
-                    alt="Custom gown stitching design in Gadhinglaj"
-                    loading="lazy"
-                    onclick="openImage(this.src)">
-
-                <h3>Gown</h3>
-
-                <p>
-                    Elegant custom gown design.
-                </p>
-
-                <a href="https://wa.me/9764512501?text=Hello%20Saaj%20Fashion%20Hub%2C%20I%20am%20interested%20in%20the%20Gown%20design.%20I%20would%20like%20to%20know%20more%20about%20the%20price%20and%20stitching%20options."
-   target="_blank"
-   rel="noopener noreferrer"
-   class="whatsapp-button">
-    💬 Enquire on WhatsApp
-</a>
-
-            </div>
-
-
-            <div class="design-card kids">
-
-                <img src="images/kids-wear-1.jpg"
-                    alt="Custom kids wear stitching design"
-                    loading="lazy"
-                    onclick="openImage(this.src)">
-
-                <h3>Kids Wear</h3>
-
-                <p>
-                    Beautiful custom kids wear.
-                </p>
-
-                <a href="https://wa.me/9764512501?text=Hello%20Saaj%20Fashion%20Hub%2C%20I%20am%20interested%20in%20the%20Kids%20Wear.%20I%20would%20like%20to%20know%20more%20about%20the%20price%20and%20stitching%20options."
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="whatsapp-button">
-                    💬 Enquire on WhatsApp
-                </a>
-
-            </div>
-
+        <div class="work-category" onclick="showCategory('blouse')">
+            <div class="category-icon">👚</div>
+            <h3>Blouse</h3>
+            <p>View our blouse designs</p>
         </div>
 
-    </section>
+        <div class="work-category" onclick="showCategory('gown')">
+            <div class="category-icon">✨</div>
+            <h3>Gowns</h3>
+            <p>View our gown designs</p>
+        </div>
+
+        <div class="work-category" onclick="showCategory('kids')">
+            <div class="category-icon">👧</div>
+            <h3>Kids Wear</h3>
+            <p>View our kids wear designs</p>
+        </div>
+
+        <div class="work-category work-category-center" onclick="showCategory('creative')">
+            <div class="category-icon">🎨</div>
+            <h3>Creative Work</h3>
+            <p>View our festival creative work</p>
+        </div>
+
+    </div>
+    <button type="button" class="back-to-categories" onclick="showCategories()">
+    ← Back to Categories
+    </button>
+
+    <div class="design-container" id="designGallery" style="display: none;">
+
+        <div class="design-card" data-category="ladies-dress">
+            <img src="images/ladies-dress/dress-01.jpg" alt="Ladies dress stitching design in Gadhinglaj" loading="lazy" onclick="openImage(this.src)">
+            <h3>Ladies Dress</h3>
+            <p>Custom stitched ladies dress.</p>
+            <a href="https://wa.me/9764512501?text=Hello%20Saaj%20Fashion%20Hub%2C%20I%20am%20interested%20in%20the%20Ladies%20Dress.%20I%20would%20like%20to%20know%20more%20about%20the%20price%20and%20stitching%20options." target="_blank" rel="noopener noreferrer" class="whatsapp-button">💬 Enquire on WhatsApp</a>
+        </div>
+
+        <div class="design-card" data-category="ladies-dress">
+            <img src="images/ladies-dress/dress-02.jpg" alt="Ladies dress stitching design in Gadhinglaj" loading="lazy" onclick="openImage(this.src)">
+            <h3>Ladies Dress</h3>
+            <p>Custom stitched ladies dress.</p>
+            <a href="https://wa.me/9764512501?text=Hello%20Saaj%20Fashion%20Hub%2C%20I%20am%20interested%20in%20the%20Ladies%20Dress.%20I%20would%20like%20to%20know%20more%20about%20the%20price%20and%20stitching%20options." target="_blank" rel="noopener noreferrer" class="whatsapp-button">💬 Enquire on WhatsApp</a>
+        </div>
+
+        <div class="design-card" data-category="ladies-dress">
+            <img src="images/ladies-dress/dress-03.jpg" alt="Ladies dress custom stitching design" loading="lazy" onclick="openImage(this.src)">
+            <h3>Ladies Dress</h3>
+            <p>Beautiful custom dress design.</p>
+            <a href="https://wa.me/9764512501?text=Hello%20Saaj%20Fashion%20Hub%2C%20I%20am%20interested%20in%20the%20Ladies%20Dress.%20I%20would%20like%20to%20know%20more%20about%20the%20price%20and%20stitching%20options." target="_blank" rel="noopener noreferrer" class="whatsapp-button">💬 Enquire on WhatsApp</a>
+        </div>
+
+        <div class="design-card" data-category="blouse">
+            <img src="images/blouse/blouse-01.jpg" alt="Stylish custom blouse stitching design" loading="lazy" onclick="openImage(this.src)">
+            <h3>Designer Blouse</h3>
+            <p>Custom blouse stitching.</p>
+            <a href="https://wa.me/9764512501?text=Hello%20Saaj%20Fashion%20Hub%2C%20I%20am%20interested%20in%20the%20Designer%20Blouse.%20I%20would%20like%20to%20know%20more%20about%20the%20price%20and%20stitching%20options." target="_blank" rel="noopener noreferrer" class="whatsapp-button">💬 Enquire on WhatsApp</a>
+        </div>
+
+        <div class="design-card" data-category="blouse">
+            <img src="images/blouse/blouse-02.jpg" alt="Stylish custom blouse stitching design" loading="lazy" onclick="openImage(this.src)">
+            <h3>Designer Blouse</h3>
+            <p>Stylish blouse with custom detailing.</p>
+            <a href="https://wa.me/9764512501?text=Hello%20Saaj%20Fashion%20Hub%2C%20I%20am%20interested%20in%20the%20Designer%20Blouse.%20I%20would%20like%20to%20know%20more%20about%20the%20price%20and%20stitching%20options." target="_blank" rel="noopener noreferrer" class="whatsapp-button">💬 Enquire on WhatsApp</a>
+        </div>
+
+        <div class="design-card" data-category="blouse">
+            <img src="images/blouse/blouse-03.jpg"alt="Stylish custom blouse stitching design" loading="lazy" onclick="openImage(this.src)">
+            <h3>Designer Blouse</h3>
+            <p>Stylish blouse with custom detailing.</p>
+            <a href="https://wa.me/9764512501" target="_blank" rel="noopener noreferrer" class="whatsapp-button"> 💬 Enquire on WhatsApp </a>
+        </div>
+
+        <div class="design-card" data-category="gown">
+            <img src="images/gowns/gown-01.jpg" alt="Custom gown stitching design in Gadhinglaj" loading="lazy" onclick="openImage(this.src)">
+            <h3>Gown</h3>
+            <p>Elegant custom gown design.</p>
+            <a href="https://wa.me/9764512501?text=Hello%20Saaj%20Fashion%20Hub%2C%20I%20am%20interested%20in%20the%20Gown%20design.%20I%20would%20like%20to%20know%20more%20about%20the%20price%20and%20stitching%20options." target="_blank" rel="noopener noreferrer" class="whatsapp-button">💬 Enquire on WhatsApp</a>
+        </div>
+
+        <div class="design-card" data-category="kids">
+            <img src="images/kids-wear/kids-wear-01.jpg" alt="Custom kids wear stitching design" loading="lazy" onclick="openImage(this.src)">
+            <h3>Kids Wear</h3>
+            <p>Beautiful custom kids wear.</p>
+            <a href="https://wa.me/9764512501?text=Hello%20Saaj%20Fashion%20Hub%2C%20I%20am%20interested%20in%20the%20Kids%20Wear.%20I%20would%20like%20to%20know%20more%20about%20the%20price%20and%20stitching%20options." target="_blank" rel="noopener noreferrer" class="whatsapp-button">💬 Enquire on WhatsApp</a>
+        </div>
+
+    </div>
+
+</section>
 
 
-    <section class="about" id="about">
+<section class="about" id="about">
 
         <div class="about-container">
 
@@ -456,6 +401,10 @@
     </div>
 </section>
 
+    <section class="contact" id="contact">
+
+        <div class="contact-container">
+
             <p class="contact-small">
                 GET IN TOUCH
             </p>
@@ -472,42 +421,27 @@
             <div class="contact-details">
 
                 <div class="contact-card">
-
                     <h3>📍 Our Location</h3>
-
                     <p>
                         दत्त कृपा निवास,<br>
                         Sankeshwar Road,<br>
                         Gadhinglaj,<br>
                         Kolhapur, Maharashtra - 416502
                     </p>
-
-                    <a href="https://maps.app.goo.gl/RDECCfqdsTV9KiGFA"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        class="map-button">
+                    <a href="https://maps.app.goo.gl/RDECCfqdsTV9KiGFA" target="_blank" rel="noopener noreferrer" class="map-button">
                         🗺️ Open in Google Maps
                     </a>
-
                 </div>
 
-
                 <div class="contact-card">
-
                     <h3>💬 Contact Us</h3>
-
                     <p>
                         For enquiries, designs and stitching
                         requirements, contact us on WhatsApp.
                     </p>
-
-                    <a href="https://wa.me/9764512501"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        class="whatsapp-contact">
+                    <a href="https://wa.me/9764512501" target="_blank" rel="noopener noreferrer" class="whatsapp-contact">
                         💬 WhatsApp Us
                     </a>
-
                 </div>
 
             </div>
@@ -593,84 +527,89 @@
 
     <script>
 
-        function filterDesigns(category) {
+        function showCategory(category) {
+            const gallery = document.getElementById("designGallery");
+            const cards = gallery.querySelectorAll(".design-card");
 
-            const cards = document.querySelectorAll(".design-card");
+            gallery.style.display = "grid";
 
             cards.forEach(function (card) {
-
-                if (category === "all") {
+                if (card.dataset.category === category) {
                     card.style.display = "block";
-                }
-                else if (card.classList.contains(category)) {
-                    card.style.display = "block";
-                }
-                else {
+                } else {
                     card.style.display = "none";
                 }
-
             });
 
+            gallery.scrollIntoView({
+                behavior: "smooth",
+                block: "start"
+            });
         }
+        function showCategories() {
+    document.querySelectorAll(".design-card").forEach(function(card) {
+        card.style.display = "none";
+    });
 
+    document.querySelectorAll(".category-card").forEach(function(card) {
+        card.style.display = "flex";
+    });
 
-        function openImage(imageSource) {
+    window.scrollTo({
+        top: document.getElementById("designs").offsetTop,
+        behavior: "smooth"
+    });
+}
 
-            document.getElementById("imageModal").style.display = "flex";
-
-            document.getElementById("popupImage").src = imageSource;
-
-        }
-
-
-        function closeImage() {
-
-            document.getElementById("imageModal").style.display = "none";
-
-        }
-
-    </script>
-
-
-    <div id="imageModal" class="image-modal">
-
-        <span class="close-button"
-            onclick="closeImage()">
-            &times;
-        </span>
-
-        <img id="popupImage"
-            src=""
-            alt="Saaj Fashion Hub design preview">
-
-    </div>
-    <script>
-document.getElementById("imageModal").addEventListener("click", function(event) {
+        document.getElementById("imageModal").addEventListener("click", function(event) {
     if (event.target === this) {
         closeImage();
     }
 });
-</script>
-<script>
-document.getElementById("enquiryForm").addEventListener("submit", function(event) {
-    event.preventDefault();
 
-    const name = document.getElementById("customerName").value.trim();
-    const service = document.getElementById("service").value;
-    const requirement = document.getElementById("requirement").value.trim();
+        function openImage(imageSource) {
+            document.getElementById("imageModal").style.display = "flex";
+            document.getElementById("popupImage").src = imageSource;
+        }
 
-    const message = `Hello Saaj Fashion Hub,
+        function closeImage() {
+            document.getElementById("imageModal").style.display = "none";
+        }
 
-Name: ${name}
-Service: ${service}
-Requirement: ${requirement}`;
+        document.getElementById("imageModal").addEventListener("click", function (event) {
+            if (event.target === this) {
+                closeImage();
+            }
+        });
 
-    const whatsappUrl =
-        "https://wa.me/9764512501?text=" + encodeURIComponent(message);
+        document.getElementById("designGallery").addEventListener("click", function(event) {
+            if (event.target === this) {
+                showCategories();
+            }
+        });
 
-    window.open(whatsappUrl, "_blank");
-});
-</script>
+        document.getElementById("enquiryForm").addEventListener("submit", function (event) {
+            event.preventDefault();
+
+            const name = document.getElementById("customerName").value.trim();
+            const service = document.getElementById("service").value;
+            const requirement = document.getElementById("requirement").value.trim();
+
+            const message = `Hello Saaj Fashion Hub,\n\nName: ${name}\nService: ${service}\nRequirement: ${requirement}`;
+
+            const whatsappUrl =
+                "https://wa.me/9764512501?text=" + encodeURIComponent(message);
+
+            window.open(whatsappUrl, "_blank");
+        });
+
+    </script>
+
+    <div id="imageModal" class="image-modal" onclick="if(event.target === this) closeImage()">
+
+    <img id="popupImage" src="" alt="Saaj Fashion Hub design preview">
+
+</div>
 
 </body>
 
