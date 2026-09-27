@@ -1264,3 +1264,78 @@ footer {
     grid-template-columns: 2fr 1fr 1.5fr;
     gap: 45px;
 }
+
+/* Testimonials Section */
+
+.testimonials {
+    padding: 70px 20px;
+    text-align: center;
+    background: #fff8f5;
+}
+
+.testimonials-container {
+    max-width: 900px;
+    margin: auto;
+}
+
+.testimonials-small {
+    color: #8f0000;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.testimonials h2 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 36px;
+    color: #222;
+    margin-bottom: 15px;
+}
+
+.testimonials-intro {
+    max-width: 650px;
+    margin: 0 auto 35px;
+    color: #666;
+    line-height: 1.7;
+}
+
+.feedback-card {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 35px 25px;
+    border-radius: 14px;
+    box-shadow: 0 4px 18px rgba(0,0,0,0.12);
+}
+
+.feedback-icon {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.feedback-card h3 {
+    font-size: 22px;
+    color: #222;
+    margin-bottom: 12px;
+}
+
+.feedback-card p {
+    color: #666;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+
+@media screen and (max-width: 768px) {
+    .testimonials {
+        padding: 55px 18px;
+    }
+
+    .testimonials h2 {
+        font-size: 29px;
+    }
+
+    .feedback-card {
+        padding: 30px 20px;
+    }
+}
