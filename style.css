@@ -1445,4 +1445,219 @@ footer {
     .enquiry-form {
         padding: 25px 20px;
     }
+
+    .hero {
+    padding-top: 35px;
+}
+}
+
+/* =========================================
+   STAGE 4 - PROFESSIONAL HERO UPGRADE
+   ========================================= */
+
+.hero {
+    position: relative;
+    overflow: hidden;
+    padding: 70px 20px 80px;
+    background:
+        radial-gradient(circle at top left, rgba(143, 0, 0, 0.08), transparent 35%),
+        radial-gradient(circle at bottom right, rgba(143, 0, 0, 0.06), transparent 35%),
+        #fffaf8;
+}
+
+.hero-logo {
+    width: 190px;
+    max-width: 75%;
+    margin: 0 auto 14px;
+    display: block;
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.08));
+}
+
+.hero h1 {
+    margin: 8px 0 14px;
+    letter-spacing: 1px;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.hero-headline {
+    max-width: 750px;
+    margin: 10px auto 16px;
+    line-height: 1.4;
+}
+
+.hero-description {
+    max-width: 680px;
+    margin: 0 auto 28px;
+    line-height: 1.7;
+}
+
+@media screen and (max-width: 768px) {
+
+    .hero {
+        padding: 35px 18px 55px;
+    }
+
+    .hero-logo {
+        width: 165px;
+        margin-bottom: 10px;
+    }
+
+    .hero h1 {
+        font-size: 40px;
+    }
+
+    .hero-headline {
+        font-size: 25px;
+        line-height: 1.35;
+    }
+
+    .hero-description {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+}
+
+.hero {
+    background: linear-gradient(
+        135deg,
+        #fff8f5 0%,
+        #ffffff 50%,
+        #fdf0ed 100%
+    ) !important;
+
+    border-bottom: 1px solid #f0d8d2;
+}
+
+.hero-logo {
+    filter: drop-shadow(0 8px 12px rgba(0, 0, 0, 0.15)) !important;
+}
+
+.hero h1 {
+    text-shadow: 0 3px 10px rgba(143, 0, 0, 0.12) !important;
+}
+
+/* =========================================
+   STAGE 4 - PROFESSIONAL SERVICE CARDS
+   ========================================= */
+
+.service-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid rgba(143, 0, 0, 0.08);
+}
+
+.service-card:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+}
+
+.service-card h3 {
+    transition: color 0.3s ease;
+}
+
+.service-card:hover h3 {
+    color: #8f0000;
+}
+
+@media screen and (max-width: 768px) {
+    .service-card {
+        transition: none;
+    }
+
+    .service-card:hover {
+        transform: none;
+    }
+}
+
+/* =========================================
+   STAGE 4 - PROFESSIONAL GALLERY
+   ========================================= */
+
+.design-card {
+    overflow: hidden;
+    border-radius: 12px;
+    position: relative;
+}
+
+.design-card img {
+    transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+.design-card:hover img {
+    transform: scale(1.04);
+    filter: brightness(0.96);
+}
+
+@media screen and (max-width: 768px) {
+    .design-card img {
+        transition: none;
+    }
+
+    .design-card:hover img {
+        transform: none;
+        filter: none;
+    }
+}
+
+/* =========================================
+   STAGE 4 - PROFESSIONAL WHATSAPP BUTTONS
+   ========================================= */
+
+.whatsapp-contact,
+.enquiry-button {
+    transition: transform 0.25s ease, box-shadow 0.25s ease, opacity 0.25s ease;
+}
+
+.whatsapp-contact:hover,
+.enquiry-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 7px 18px rgba(0, 0, 0, 0.15);
+    opacity: 0.95;
+}
+
+.whatsapp-contact:active,
+.enquiry-button:active {
+    transform: translateY(0);
+}
+
+@media screen and (max-width: 768px) {
+    .whatsapp-contact:hover,
+    .enquiry-button:hover {
+        transform: none;
+        box-shadow: none;
+    }
+}
+
+/* =========================================
+   STAGE 4 - PROFESSIONAL CONTACT SECTION
+   ========================================= */
+
+.contact-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid rgba(143, 0, 0, 0.08);
+}
+
+.contact-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+}
+
+.map-button {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.map-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+@media screen and (max-width: 768px) {
+    .contact-card {
+        transition: none;
+    }
+
+    .contact-card:hover,
+    .map-button:hover {
+        transform: none;
+        box-shadow: none;
+    }
 }
