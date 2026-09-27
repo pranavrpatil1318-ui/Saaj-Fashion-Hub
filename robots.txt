@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pranavrpatil1318-ui.github.io/Saaj-Fashion-Hub/sitemap.xml
